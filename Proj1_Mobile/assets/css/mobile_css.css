@@ -1,0 +1,43 @@
+.header{
+	background-color: #E10022;
+	position: fixed;
+	top:0rem;
+	left:0rem;
+	display: inline-flex;
+	height: 15%;
+	width: 100%;
+	z-index: 2 ;
+}
+
+.title{
+	position: relative;
+	height: 100%;
+	width: 45%;
+	display:block;
+	left:25%;
+	bottom: 5%;
+}
+
+#fonttitle{
+	display: flex;
+	position:relative;
+	top:30%;
+	font-family: Georgia, serif;
+	font-size: 4rem;
+	color: white;
+	left: 10%;
+}
+
+.texto{
+	position: absolute;
+	font-family: Calibri, sans-serif;
+	height:85%;
+	width:80%;
+	float:right;
+	top: 20%;
+	left:10%;
+	text-align:left;
+	z-index: -49;
+	font-size: 1.25rem;
+	
+}
